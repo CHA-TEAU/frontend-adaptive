@@ -264,10 +264,9 @@ li{
 
 .menu{
     margin-top: 50px;
-    height: auto;
+    height: 1100px;
     background-color: rgb(40, 40, 40);
 }
-
 
 
 .menu h1{
@@ -308,3 +307,36 @@ li{
     font-size: 22px;
     text-align: center;
 }
+
+
+/* Advertisment Section */
+
+.adver{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.adver-title{
+    margin: 0 auto;
+    width: 55%;
+}
+
+.adver h1{
+    font-size: 88px;
+    letter-spacing: 5px;
+
+}
+
+.adver p{
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.adver-pics{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
