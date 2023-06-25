@@ -41,10 +41,7 @@ header {
 
 .header-nav {
     display: flex;
-    height: 75px;
     align-items: center;
-
-
 }
 
 .header-nav__item {
