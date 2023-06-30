@@ -10,37 +10,38 @@
 </head>
 
 <body>
-
     <header>
         <div class="cont">
-            <div class="header-box">
+            <div class="header__box">
+                <div class="logo">
+                    LOGO
+                </div>
 
-                <img src="css/LOGO.png" alt="">
+                <div class="mobile__button">
 
-                <div class="mobile__button"></div>
+                </div>
 
-                <div class="header-nav">
-                    <a href="" class="header-nav__item">Pizza</a>
-                    <a href="" class="header-nav__item">Combo</a>
-                    <a href="" class="header-nav__item">Sales</a>
-                    <a href="" class="header-nav__item">Contacts</a>
+                <div class="header__menu">
+                    <div class="menu__item">Pizza</div>
+                    <div class="menu__item">Combo</div>
+                    <div class="menu__item">Sales</div>
+                    <div class="menu__item">Contacts</div>
+
                 </div>
             </div>
 
+            <!--mobile header-->
 
+            <div class="header__menu__mobile">
+                <div class="menu__item__mobile">Pizza</div>
+                <div class="menu__item__mobile">Combo</div>
+                <div class="menu__item__mobile">Sales</div>
+                <div class="menu__item__mobile">Contacts</div>
+            </div>
 
+            <!--end mobile header-->
 
         </div>
-
-        <!-- ---- mobile header ---- -->
-
-        <div class="header-nav__mobile">
-            <a href="" class="header-nav__item__mobile">Pizza</a>
-            <a href="" class="header-nav__item__mobile">Combo</a>
-            <a href="" class="header-nav__item__mobile">Sales</a>
-            <a href="" class="header-nav__item__mobile">Contacts</a>
-        </div>
-
 
         <div class="header-pic">
 
@@ -66,56 +67,63 @@
         </div>
 
         </div>
-
     </header>
 
-    <div class="cont">
 
 
-        <!-- ---- ABOUT US INFO ---- -->
+    <!-- ---- ABOUT US INFO ---- -->
 
 
-        <section class="info">
-            <div class="info-block">
-                <img src="css/pizza.png" alt="">
-                <p>ABOUT US</p>
+    <section class="info">
+        <div class="cont">
+            <div class="info-items">
+                <div class="info-block">
+                    <img src="css/pizza.png" alt="">
+                    <p>ABOUT US</p>
+                </div>
+                <div class="info-block">
+                    <img src="css/leaf.png" alt="">
+                    <p>ORGANIC</p>
+                </div>
+                <div class="info-block">
+                    <img src="css/knife.png" alt="">
+                    <p>PIZZA</p>
+                </div>
+                <div class="info-block">
+                    <img src="css/pasta.png" alt="">
+                    <p>PASTA</p>
+                </div>
             </div>
-            <div class="info-block">
-                <img src="css/leaf.png" alt="">
-                <p>ORGANIC</p>
+
+
+
+    </section>
+
+    <!-- ---- SPECIAL OFFER BANNER ---- -->
+
+    <section class="spec-offer">
+        <div class="cont">
+            <div class="spec-offer-cont">
+                <img class="offer-info img" src="css/pizza.jpg" alt="">
+                <div class="offer-info">
+                    <h4>WELCOME TO</h4>
+                    <h1>John's Pizzeria</h1>
+                    <p>We are specialized in authentic Neapolitan pizza, baked hot and fast in a brick oven to achieve a
+                        not-too-thick, not-to-thin chewy, smoky crust, made from a recipe that’s been handed down
+                        through
+                        five generations of pizzaioli (pizza makers). </p>
+
+                    <li>Tasty, fresh daily</li>
+                    <li>Best pizza in NYC</li>
+
+                    <button class="menu-btn">SEE OUR MENU</button>
+
+                </div>
             </div>
-            <div class="info-block">
-                <img src="css/knife.png" alt="">
-                <p>PIZZA</p>
-            </div>
-            <div class="info-block">
-                <img src="css/pasta.png" alt="">
-                <p>PASTA</p>
-            </div>
-        </section>
+        </div>
 
+    </section>
 
-        <!-- ---- SPECIAL OFFER BANNER ---- -->
-
-        <section class="spec-offer">
-            <img src="css/pizza.jpg" alt="">
-            <div class="offer-info">
-                <h4>WELCOME TO</h4>
-                <h1>John's Pizzeria</h1>
-                <p>We are specialized in authentic Neapolitan pizza, baked hot and fast in a brick oven to achieve a
-                    not-too-thick, not-to-thin chewy, smoky crust, made from a recipe that’s been handed down through
-                    five generations of pizzaioli (pizza makers). </p>
-
-                <li>Tasty, fresh daily</li>
-                <li>Best pizza in NYC</li>
-
-                <button class="menu-btn">SEE OUR MENU</button>
-
-            </div>
-        </section>
-
-
-    </div>
 
     <!-- ---- MENU ---- -->
 
@@ -170,8 +178,9 @@
 
     <!-- ---- ADVERTISMENT ---- -->
 
-    <div class="cont">
-        <section class="adver">
+
+    <section class="adver">
+        <div class="cont">
             <div class="adver-title">
                 <h1>Satisfy Your Pizza
                     Cravings Today!</h1>
@@ -188,10 +197,16 @@
                 <img src="css/arrowcircleright.svg" alt="" class="rigth-arrow">
             </div>
 
-            <button class="menu-btn">ORDER NOW</button>
+            <div class="adver-pics-mobile">
+                <img src="css/arrowcircleleft.png" alt="" class="left-arrow">
+                <img src="css/adv3.jpg" alt="" width="300px">
+                <img src="css/arrowcircleright.svg" alt="" class="rigth-arrow">
+            </div>
 
-        </section>
-    </div>
+            <button class="menu-btn">ORDER NOW</button>
+        </div>
+    </section>
+
 
 
     <!-- ---- FOOTER ---- -->
@@ -211,8 +226,10 @@
             </div>
             <div class="footer-info">
                 <h5>CALL US</h5>
-                <p><span style="font-size: 12px; font-weight: 600; text-decoration: underline; color: orange;"> 8-800-123-45-67</span></p>
-                <p><span style="font-size: 12px; font-weight: 600; text-decoration: underline; color: orange;">1 (234) 567-891</span></p>
+                <p><span style="font-size: 12px; font-weight: 600; text-decoration: underline; color: orange;">
+                        8-800-123-45-67</span></p>
+                <p><span style="font-size: 12px; font-weight: 600; text-decoration: underline; color: orange;">1 (234)
+                        567-891</span></p>
             </div>
         </div>
     </footer>
@@ -220,10 +237,13 @@
     <section class="underline">
         <p>DELICIOUS PIZZA</p>
         <p>© 2023</p>
-        <a href=""> Legal information</a>
-        <a href="">Caloric content and composition</a>
-        <a href="">Help</a>
+        <a href="#"> Legal information</a>
+        <a href="#">Caloric content and composition</a>
+        <a href="#">Help</a>
     </section>
+
+
+
 
 
 </body>
